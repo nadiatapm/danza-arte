@@ -1,1 +1,118 @@
-/* Inserta tu codigo aqui */
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family:"Monserrat";
+}
+.fijo{
+	position:fixed;
+	background-color:white;
+
+}
+.titulo{
+	margin-left:35%;
+	font-size:30px;
+}
+
+li a{
+	text-decoration:none;
+	color:black;
+}
+
+li{
+	float:left;
+	list-style:none;
+	margin-left:15%;
+	
+}
+
+.fondo-gris{
+	background-color: #f5f5f5;
+	text-align: center;
+	padding: 4% 0;
+}
+.fondo-gris h2{
+	font-size: 20px;
+	margin-bottom: 2%;
+}
+.foto{
+	width: 30%;
+	margin:1%;
+	background-position:center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 420px;
+	padding-top: 15%;
+}	
+.ballet{
+	background-image: url(../img/dance_12.jpg);
+}
+.moderm{
+	background-image: url(../img/breakdance.jpg);
+}
+.jazz{
+	background-image: url(../img/lirical-jazz.jpg);
+}
+.arabic{
+	background-image: url(../img/arabe.jpg);
+}
+.kid{
+	background-image: url(../img/little.jpg);
+}
+.yoga{
+	background-image: url(../img/yoga.jpg);
+}
+.texto{
+	margin: 0 auto;
+	background-color: rgba(27, 21, 23, 0.6);
+	color:white;
+	width: 90%;
+	height: 120px;
+	padding: 5%;
+	text-align: center;
+	font-size: 14px;
+}
+ h6{
+	margin: 7% auto;
+}
+.contacto{
+	background-color:white;
+	height:500px;
+	margin-left:0;
+}
+form{
+	width:50%;
+	margin:auto;
+	background: rgba(0,0,0,0.2);
+	padding:7%;
+	margin-top:4%;
+	border-radius:7px;
+}
+.formulario{
+	color:#45515d;
+	text-align:center;
+	margin:0;
+	font-size:30px;
+	margin-bottom:1%;
+} 	
+
+input, textarea{
+    width:100%;
+    margin-bottom:2%;
+    padding:4%;
+    box-sizing:border-box;
+    font-size:16px;   
+}
+.zapatos{
+	background:url(../img/shoes_1.jpg);
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:right; 
+}
+footer{
+	background-color:#45515d;
+	padding:1%;
+	color:white;
+	border-bottom:5px solid grey;
+}

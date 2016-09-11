@@ -23,7 +23,7 @@ li{
 	float:left;
 	list-style:none;
 	margin-left:15%;
-	padding:2%;
+	padding:1%;
 }	
 .fondo{
 	background:url(../img/dance_1.jpg)no-repeat;
@@ -74,17 +74,17 @@ li{
 	margin-top:5%;
 }
 .profesor{
-	background:url(../img/instructor_4.jpg);
+	background:url(../img/instructor_4.jpg)no-repeat;
 	border:1px solid black;
-	height:400px;
+	height:450px;
 }
 .profesora{
 	background:url(../img/profesor_9.jpg);
 	border:1px solid black;
-	height:400px;
+	height:450px;
 }
 .boton{
-	 background-color:#45515d;
+	background-color:#45515d;
     border-radius:5px;
     color:white;
     padding: 10px 20px;
@@ -98,6 +98,13 @@ li{
 .join{
    	text-decoration:none;
    	color:white;
+
+}
+.ofertas{
+	margin-left:45%; 
+}
+.nuestros{
+	margin-left:43%; 
 }
 
 .mapa{

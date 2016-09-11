@@ -20,7 +20,6 @@ li{
 	float:left;
 	list-style:none;
 	margin-left:15%;
-	
 }
 /*segunda hoja sobre nosotros*/
 .segunda{
@@ -28,43 +27,54 @@ li{
 	width:100%;
 	height:600px; 
 }
-.texto{
+.sobre{
 	color:white;
+	margin-left:10%;
 }
-.transparente{/*hacer fodo transparente*/
+.transparente{
+	margin: 0 auto;
+	background-color: rgba(27, 21, 23, 0.6);
+	color:white;
+	width: 28%;
+	margin-top:20%;
+	padding:4%;
+	text-align: center;
+	font-size: 17px;
+}
 
-}
 .partes{
 	background:url(../img/cubes.png);
 	width:100%;
 	height:260px;
 
 }
-.titulo .lorem{
-	text-align:center;
-	margin-bottom:10%; 
-	padding:3%;
-}
-.titulo{
-	padding:4%;
-}
 .lorem{
-	margin-left:50%;
+	text-align:center;
+	border-bottom:2px solid grey;
+	margin-bottom:10%; 
+	padding:2%;
+}
+
+.lorem{
+	margin-left:40%;
+	padding:2%;
 }
 .fotos{
-	width:100%;
+	width:80%;
 	height:300px;
 	margin:5%;
-	margin:2% 3%;
+}
+h3 , p{
+	text-align: center;
 }
 .frase{
 	background:url(../img/cubes.png);
 	width: 100%;
-	height:100px;
+	height:170px;
 }
 .larga{
-	font-size:30px;
-	margin-left:33%;
+	font-size:40px;
+	margin-right:-5%;
 	padding-top:3%;
 }
 
@@ -92,6 +102,7 @@ form{
 input, textarea{
     width:100%;
     margin-bottom:2%;
+    padding:4%;
     box-sizing:border-box;
     font-size:16px;   
 }
@@ -103,6 +114,8 @@ input, textarea{
 }
 footer{
 	background-color:#45515d;
+	padding:1%;
 	color:white;
 	border-bottom:5px solid grey;
 }
+
